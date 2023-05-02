@@ -67,18 +67,22 @@ header {
 .button-add{
   color: var(--color-common-light);
   background-color: var(--color-brand-secondary);
-  border-radius: 25%;
-  padding: 1px;
+  border-radius: 13%;
   border: 0;
+  width: 60px;
+  padding: 8px 19px;
+  
 }
 .title {
   line-height: 1.5;
   letter-spacing: -1px;
   font-weight: 500;
+  font-size: 35px;
   color: var(--color-text-light);
 }
 
 .subtitle {
+  font-size: 15px;
   line-height: 1.2;
   font-weight: 100;
   color: var(--color-brand-primary);
@@ -91,13 +95,29 @@ header {
 }
 
 .input{
-  padding: 5px;
+  width: 80%;
+  padding: 12px;
+
 }
 
 .container {
   width: 94%;
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+.checkbox1{
+  justify-content: space-between;
+  text-decoration: line-through;
+  display: flex;
+
+}
+
+.checkbox2{
+  justify-content: space-between;
+  text-decoration: line-through;
+  display: flex;
 }
 
 .avatar {

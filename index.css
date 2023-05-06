@@ -37,6 +37,16 @@ body {
   background-color: var(--color-interface-light);
 }
 
+.img{
+  max-width: 100%;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
 h1, 
 h2,
 h3,
@@ -62,16 +72,15 @@ header {
 
 .button {
   border: 0;
+  background-color: transparent;
   cursor: pointer;
 }
 .button-add{
   color: var(--color-common-light);
   background-color: var(--color-brand-secondary);
-  border-radius: 13%;
+  border-radius: 3px;
   border: 0;
-  width: 60px;
-  padding: 8px 19px;
-  
+  width: 70px;
 }
 .title {
   line-height: 1.5;
@@ -94,9 +103,18 @@ header {
   line-height: 1.5;
 }
 
+.input-add{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: var(--spacing-xlarge);
+
+}
+
 .input{
   width: 80%;
   padding: 12px;
+  display: flex;
+  justify-content: space-between;
 
 }
 
@@ -107,23 +125,10 @@ header {
   
 }
 
-.checkbox1{
-  justify-content: space-between;
-  text-decoration: line-through;
-  display: flex;
-
-}
-
-.checkbox2{
-  justify-content: space-between;
-  text-decoration: line-through;
-  display: flex;
-}
-
-.avatar {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
+.sectioncheck{
+  border-top: solid 1px var(--color-text-dark);
+  border-top-right-radius: 50px;
+  background-color: var(--color-common-light);
 }
 
 .form-task {
@@ -131,14 +136,35 @@ header {
 
 }
 
-.form-task-label {
-
+.div-task{
+  width: 46vw;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5vh;
 }
 
-.form-task-input {
-
-}
-
-.form-task-button {
+.div-task-dois {
+  width: 46vw;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15vh;
   
+}
+
+.p-task{
+  display: inline;
+  margin-left: 5vw;
+}
+
+.icon{
+  border: none;
+  background-color: var(--color-common-light);
+  color: var(--color-text-light);
+}
+
+.botao{
+  width: 45vw;
+  display: inline-block;
+  text-align: right;
+  margin-top: 5vh;
 }
